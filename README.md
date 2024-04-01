@@ -1,1 +1,0 @@
-# Vector_db_example
