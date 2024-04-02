@@ -18,7 +18,7 @@ If this is the first time the database is hosted locally, we need to create a da
 ## Application
 
 Building the application:
-1. 11docker build . -t app_image``
+1. ``docker build . -t app_image``
 2. ``docker run --net=host app_image``
 
 For running locally, we need to define the network for the container to be that of the host machine, otherwise the virtual localhost in the application container will not be able to see the locally hosted database.
