@@ -1,7 +1,13 @@
-venv/
-venv/*
-
-build/
-build/
+.gitignore
 
 *.egg-info
+*.egg-info/
+
+.venv/
+.venv/*
+
+build/
+build/*
+
+dist/
+dist/*
