@@ -2,11 +2,11 @@ import psycopg2
 
 def connect_db():
     return psycopg2.connect(
-        dbname="my_db",
-        user="sudouser",
-        password="Peter123",
+        dbname="example",
+        user="postgres",
+        password="postgres",
         host="localhost", # 127.0.0.1
-        port="5432",
+        port="5433",
     )
 
 def create_table():
