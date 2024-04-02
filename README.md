@@ -22,3 +22,8 @@ Building the application:
 2. ``docker run --net=host app_image``
 
 For running locally, we need to define the network for the container to be that of the host machine, otherwise the virtual localhost in the application container will not be able to see the locally hosted database.
+## TODO
+1. Document docker and learn docker compose
+2. Use encrpted store, ideally not needing redeploying application container.
+3. Cloud host database, using same application but different store values.
+4. Use vector database and pgvector.
